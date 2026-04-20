@@ -87,6 +87,43 @@ section h2 {
   line-height: 1.7;
 }
 
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-entry {
+  display: flex;
+  gap: 20px;
+}
+
+.timeline-year {
+  font-size: 0.82rem;
+  color: #999;
+  min-width: 80px;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.timeline-body {
+  font-size: 0.92rem;
+  color: #333;
+  line-height: 1.65;
+}
+
+.timeline-body a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1px;
+}
+
+.timeline-body a:hover {
+  border-color: #1a1a1a;
+}
+
 /* Research */
 .paper {
   margin-bottom: 24px;
