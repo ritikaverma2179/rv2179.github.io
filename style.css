@@ -151,6 +151,18 @@ section h2 {
   color: #999;
 }
 
+.teaching-item .role a {
+  color: #555;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1px;
+}
+
+.teaching-item .role a:hover {
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {
