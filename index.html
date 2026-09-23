@@ -4,15 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ritika Verma</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
 
-  <!-- Header -->
-  <div class="header">
-    <img src="photo.jpg" alt="Ritika Verma" />
-    <div class="header-text">
+  <div class="page">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="photo.jpg?v=2" alt="Ritika Verma" />
       <h1>Ritika Verma</h1>
+      <p class="email">rv2179@nyu.edu</p>
       <p class="tagline">I like to think about contracts, information, and who gets funded.</p>
       <div class="links">
         <a href="mailto:rv2179@nyu.edu">Email</a>
@@ -20,60 +22,71 @@
         <a href="https://twitter.com/ritikav06234649" target="_blank">Twitter / X</a>
         <a href="https://www.linkedin.com/in/ritika-verma-49bb5614a" target="_blank">LinkedIn</a>
       </div>
-    </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+
+      <!-- About -->
+      <section class="about">
+        <h2>About</h2>
+        <p>
+          I am a fifth-year PhD student in Economics at New York University. My research is in
+          microeconomic theory, with applications in entrepreneurial finance, innovation markets,
+          and corporate finance. I am interested in how information and incentives shape the
+          contracts that entrepreneurs and investors write — and what that means for who gets to
+          build things.
+        </p>
+      </section>
+
+      <!-- Research -->
+      <section>
+        <h2>Research</h2>
+
+        <div class="paper">
+          <h3>Financing Innovation with Reputation Concerns</h3>
+          <div class="meta">Working Paper &nbsp;(Job Market Paper)</div>
+          <p class="abstract">
+            In a dynamic model, an investor financing the project cannot observe project failure and the
+            entrepreneur, facing career concerns, can hide failure. There is a tension between promoting
+            early disclosure of failure and providing sufficient incentives for it. The optimal contract
+            incentivizes disclosure of failure during an initial transparency stage, followed by a delayed
+            disclosure stage where failure is disclosed with a lag of random length. The model explains
+            several empirical patterns in venture capital financing and the financing of innovation.
+          </p>
+          <div class="paper-links">
+            <span style="font-size:0.82rem; color:#888;">Draft available on request</span>
+          </div>
+        </div>
+
+        <div class="paper">
+          <h3>Venture Capital Contracts with Informed Investors</h3>
+          <div class="meta">Working Paper</div>
+          <p class="abstract">
+            How do entrepreneurs design financing contracts when raising funds from investors
+            who have private information about project quality? I study the optimal contract
+            an entrepreneur proposes given two information frictions — effort incentives and
+            asymmetric information. A key finding is that entrepreneurs exhibit an endogenous
+            preference for risk in their contract design, arising from a tradeoff between
+            maximizing returns across projects of varying quality. I apply these results to
+            analyze how differences in entrepreneur beliefs affect project outcomes and
+            aggregate efficiency.
+          </p>
+          <div class="paper-links">
+            <a href="VC_Contracts_with_Informed_Investors.pdf" target="_blank">Paper</a>
+          </div>
+        </div>
+
+        <div class="paper">
+          <h3>Price Discrimination and the Price of Price Discovery</h3>
+          <div class="meta">Work in Progress &nbsp;(with <a href="https://orestisvravosinos.netlify.app/" target="_blank">Orestis Vravosinos</a>)</div>
+        </div>
+
+      </section>
+
+    </main>
+
   </div>
-
-  <!-- About -->
-  <section class="about">
-    <h2>About</h2>
-    <p>
-      I am a fifth-year PhD student in Economics at New York University. My research is in
-      microeconomic theory, with applications in entrepreneurial finance, innovation markets,
-      and corporate finance. I am interested in how information and incentives shape the
-      contracts that entrepreneurs and investors write — and what that means for who gets to
-      build things.
-    </p>
-  </section>
-
-  <!-- Research -->
-  <section>
-    <h2>Research</h2>
-
-    <div class="paper">
-      <h3>Financing Innovation with Reputation Concerns</h3>
-      <div class="meta">Working Paper &nbsp;(Job Market Paper)</div>
-      <p class="abstract">
-        In a dynamic model, an investor financing the project cannot observe project failure and the
-        entrepreneur, facing career concerns, can hide failure. There is a tension between promoting
-        early disclosure of failure and providing sufficient incentives for it. The optimal contract
-        incentivizes disclosure of failure during an initial transparency stage, followed by a delayed
-        disclosure stage where failure is disclosed with a lag of random length. The model explains
-        several empirical patterns in venture capital financing and the financing of innovation.
-      </p>
-      <div class="paper-links">
-        <span style="font-size:0.82rem; color:#888;">Draft available on request</span>
-      </div>
-    </div>
-
-    <div class="paper">
-      <h3>Venture Capital Contracts with Informed Investors</h3>
-      <div class="meta">Working Paper</div>
-      <p class="abstract">
-        How do entrepreneurs design financing contracts when raising funds from investors
-        who have private information about project quality? I study the optimal contract
-        an entrepreneur proposes given two information frictions — effort incentives and
-        asymmetric information. A key finding is that entrepreneurs exhibit an endogenous
-        preference for risk in their contract design, arising from a tradeoff between
-        maximizing returns across projects of varying quality. I apply these results to
-        analyze how differences in entrepreneur beliefs affect project outcomes and
-        aggregate efficiency.
-      </p>
-      <div class="paper-links">
-        <a href="VC_Contracts_with_Informed_Investors.pdf" target="_blank">Paper</a>
-      </div>
-    </div>
-
-  </section>
 
   <!-- Timeline -->
   <section>

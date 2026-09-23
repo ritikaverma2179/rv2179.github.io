@@ -10,45 +10,68 @@ body {
   line-height: 1.6;
   color: #1a1a1a;
   background: #fff;
-  max-width: 680px;
+  max-width: 920px;
   margin: 60px auto;
   padding: 0 20px 80px;
 }
 
-/* Header */
-.header {
+/* Page layout */
+.page {
   display: flex;
   align-items: flex-start;
-  gap: 28px;
-  margin-bottom: 40px;
+  gap: 48px;
 }
 
-.header img {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  object-fit: cover;
+/* Sidebar */
+.sidebar {
+  width: 200px;
   flex-shrink: 0;
+  position: sticky;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
-.header-text h1 {
-  font-size: 1.5rem;
+.sidebar img {
+  width: 200px;
+  height: 240px;
+  border-radius: 3px;
+  object-fit: cover;
+  object-position: center 20%;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  margin-bottom: 18px;
+}
+
+.sidebar h1 {
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
-.header-text .tagline {
+.sidebar .email {
   color: #555;
-  font-size: 0.95rem;
-  margin-bottom: 12px;
+  font-size: 0.88rem;
+  margin-bottom: 10px;
+}
+
+.sidebar .tagline {
+  color: #555;
+  font-size: 0.92rem;
+  margin-bottom: 16px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
 }
 
 /* Social links */
 .links {
   display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .links a {
@@ -199,6 +222,18 @@ section h2 {
   margin-bottom: 6px;
 }
 
+.paper .meta a {
+  color: #888;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1px;
+}
+
+.paper .meta a:hover {
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
 .paper .abstract {
   font-size: 0.88rem;
   color: #444;
@@ -259,18 +294,44 @@ section h2 {
 }
 
 /* Responsive */
+@media (max-width: 700px) {
+  .page {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .sidebar img {
+    width: 140px;
+    height: 170px;
+    margin-bottom: 0;
+  }
+
+  .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+}
+
 @media (max-width: 480px) {
   body {
     margin: 30px auto;
   }
 
-  .header {
+  .sidebar {
     flex-direction: column;
-    gap: 16px;
   }
 
-  .header img {
-    width: 88px;
-    height: 88px;
+  .sidebar img {
+    width: 140px;
+    height: 170px;
   }
 }
