@@ -106,14 +106,14 @@ body {
 
 .sidebar .position {
   color: #333;
-  font-size: 0.98rem;
+  font-size: 1.12rem;
   font-weight: 500;
   margin-bottom: 1px;
 }
 
 .sidebar .institution {
   color: #777;
-  font-size: 0.98rem;
+  font-size: 1.12rem;
   margin-bottom: 6px;
 }
 
@@ -129,7 +129,7 @@ body {
 
 .committee-label {
   color: #999;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -138,7 +138,7 @@ body {
 
 .committee-names {
   color: #555;
-  font-size: 0.95rem;
+  font-size: 1.12rem;
   line-height: 1.5;
 }
 
@@ -156,13 +156,13 @@ body {
 
 .sidebar .email {
   color: #555;
-  font-size: 1.02rem;
+  font-size: 1.12rem;
   margin-bottom: 16px;
 }
 
 .sidebar .tagline {
   color: #555;
-  font-size: 1.05rem;
+  font-size: 1.12rem;
   margin-bottom: 22px;
 }
 
@@ -174,9 +174,9 @@ body {
   background: #1a1a1a;
   color: #fff;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  padding: 8px 16px;
+  padding: 9px 18px;
   border-radius: 5px;
   margin-bottom: 18px;
   transition: background 0.15s;
@@ -297,7 +297,7 @@ section h2 {
 }
 
 .tl-year {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: #aaa;
   text-align: center;
   white-space: nowrap;
@@ -308,7 +308,7 @@ section h2 {
 }
 
 .tl-place {
-  font-size: 0.94rem;
+  font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 1px;
 }
@@ -325,7 +325,7 @@ section h2 {
 }
 
 .tl-role {
-  font-size: 0.84rem;
+  font-size: 0.95rem;
   color: #777;
   margin-bottom: 5px;
 }
@@ -342,9 +342,9 @@ section h2 {
 }
 
 .tl-blurb {
-  font-size: 0.88rem;
+  font-size: 1.1rem;
   color: #555;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 /* Research */
@@ -370,7 +370,7 @@ section h2 {
 }
 
 .paper .meta {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: #888;
   margin-bottom: 6px;
 }
@@ -388,7 +388,7 @@ section h2 {
 }
 
 .paper .abstract {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #444;
   line-height: 1.7;
   margin-bottom: 8px;
@@ -401,7 +401,7 @@ section h2 {
 .abstract-toggle summary {
   cursor: pointer;
   list-style: none;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #1a1a1a;
   display: inline-block;
   border-bottom: 1px solid #ccc;
@@ -431,7 +431,7 @@ section h2 {
 }
 
 .paper .paper-links a {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   color: #1a1a1a;
   text-decoration: none;
   border-bottom: 1px solid #ccc;
@@ -449,19 +449,19 @@ section h2 {
 }
 
 .teaching-item .course {
-  font-size: 0.94rem;
+  font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 2px;
 }
 
 .teaching-item .role {
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: #555;
   margin-bottom: 1px;
 }
 
 .teaching-item .dates {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   color: #999;
 }
 
