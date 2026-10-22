@@ -376,6 +376,12 @@ section h2 {
   color: #333;
 }
 
+.tl-project {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
 /* Research */
 .paper {
   margin-bottom: 24px;
