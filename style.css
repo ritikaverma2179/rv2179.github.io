@@ -347,6 +347,35 @@ section h2 {
   line-height: 1.65;
 }
 
+.tl-courses {
+  margin-top: 10px;
+}
+
+.tl-courses-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.tl-courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tl-courses li {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2px;
+}
+
+.tl-course-field {
+  font-weight: 600;
+  color: #333;
+}
+
 /* Research */
 .paper {
   margin-bottom: 24px;
