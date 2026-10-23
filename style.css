@@ -458,17 +458,28 @@ section h2 {
   font-size: 0.95rem;
   color: #1a1a1a;
   display: inline-block;
+}
+
+.abstract-toggle .toggle-label,
+.abstract-toggle .draft-link {
+  color: #1a1a1a;
+  text-decoration: none;
   border-bottom: 1px solid #ccc;
   padding-bottom: 1px;
   transition: border-color 0.15s;
 }
 
-.abstract-toggle summary::-webkit-details-marker {
-  display: none;
+.abstract-toggle .draft-link {
+  margin-left: 18px;
 }
 
-.abstract-toggle summary:hover {
+.abstract-toggle .toggle-label:hover,
+.abstract-toggle .draft-link:hover {
   border-color: #1a1a1a;
+}
+
+.abstract-toggle summary::-webkit-details-marker {
+  display: none;
 }
 
 .abstract-toggle[open] summary {
