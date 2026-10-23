@@ -473,6 +473,10 @@ section h2 {
   margin-left: 18px;
 }
 
+.abstract-toggle .draft-link svg {
+  vertical-align: -1px;
+}
+
 .abstract-toggle .toggle-label:hover,
 .abstract-toggle .draft-link:hover {
   border-color: #1a1a1a;
